@@ -1,0 +1,44 @@
+
+body {
+	background-color: grey;
+}
+
+#header {
+	background-color: white;
+	font-family:serif;
+	text-align: center;
+
+}
+
+#content {
+	background-color: #777;
+
+}
+
+#section {
+	float: left;
+	background-color: blue;
+	width: 50%;
+}
+
+#aside {
+	float: right;
+	background-color: red;
+	width: 50%;
+
+}
+#footer{
+
+	float: left;
+	width: 100%;
+	background-color: green;
+}
+
+#nav{
+	text-align: center;
+	background-color: brown;
+}
+
+ul, ol{
+	list-style: none;
+}
