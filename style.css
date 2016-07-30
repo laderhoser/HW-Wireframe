@@ -1,44 +1,65 @@
 
 body {
 	background-color: grey;
+	margin-left: 150px;
+	margin-right: 150px;
+	overflow: hidden;
 }
 
 #header {
 	background-color: white;
-	font-family:serif;
+	font-family:verdana;
 	text-align: center;
 
 }
 
 #content {
-	background-color: #777;
+	background-color: white;
+
+
 
 }
 
 #section {
 	float: left;
 	background-color: blue;
-	width: 50%;
+	width: 48%;
+	margin-right: -15px;
+	padding: 5px;
+	
+	
+
+
 }
 
 #aside {
 	float: right;
 	background-color: red;
-	width: 50%;
+	width: 48%;
 
 }
-#footer{
+#footer {
 
-	float: left;
-	width: 100%;
+	float: none;
+	clear: both;
 	background-color: green;
+	margin-top:50px;
 }
 
-#nav{
+#nav {
 	text-align: center;
 	background-color: brown;
 }
 
 ul, ol{
 	list-style: none;
+}
+
+
+#parent {
+	overflow: hidden;
+}
+
+#article {
+	background-color: yellow;
 }
